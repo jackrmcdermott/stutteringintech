@@ -139,7 +139,7 @@
     },
     "\/assets\/img\/favicon.png" : {
       "ft" : 32768,
-      "iS" : 144314,
+      "iS" : 24232,
       "oA" : 0,
       "oAP" : "\/assets\/img\/favicon.png",
       "oF" : 0,
@@ -262,22 +262,9 @@
       "oAP" : "\/assets\/img\/favicon\/site.webmanifest",
       "oF" : 0
     },
-    "\/assets\/img\/icon.png" : {
-      "ft" : 32768,
-      "iS" : 7685,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/img\/logo.png" : {
       "ft" : 32768,
-      "iS" : 72215,
+      "iS" : 202615,
       "oA" : 0,
       "oAP" : "\/assets\/img\/logo.png",
       "oF" : 0,
