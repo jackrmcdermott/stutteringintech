@@ -9,6 +9,33 @@
   ],
   "creatorBuild" : "34564",
   "files" : {
+    "\/assets\/css\/lp.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/lp-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/lp.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/css\/lp.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -109,6 +136,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/img\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 144314,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/img\/favicon\/android-chrome-192x192.png" : {
       "ft" : 32768,
@@ -222,14 +262,27 @@
       "oAP" : "\/assets\/img\/favicon\/site.webmanifest",
       "oF" : 0
     },
-    "\/assets\/img\/logo-test.png" : {
+    "\/assets\/img\/icon.png" : {
       "ft" : 32768,
-      "iS" : 10361,
+      "iS" : 7685,
       "oA" : 0,
-      "oAP" : "\/assets\/img\/logo-test.png",
+      "oAP" : "\/assets\/img\/icon.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 72215,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
