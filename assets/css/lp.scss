@@ -73,7 +73,7 @@ body.waitlist {
 
   .mid-content-section {
     padding: 40px 0px;
-    background: $light-blue;
+    background: #fff7f3;
 
     .img-fluid {
       
@@ -106,12 +106,16 @@ body.waypoint {
     padding: 50px 0px 100px;
   }
 
+  section.mid {
+    padding: 70px 0px 90px;
+  }
+
   section.main {
     color: $waypoint-black;
 
 
     h1 {
-      font-size: 3.4em;
+      font-size: 3.1em;
       font-weight: 700;
       margin: .6em 0px;
       letter-spacing: -0.02em;

@@ -55,7 +55,7 @@ body.waitlist .credits {
 }
 body.waitlist .mid-content-section {
   padding: 40px 0px;
-  background: #E5F1FF;
+  background: #fff7f3;
 }
 body.waitlist .cta-section {
   padding: 70px 0px 10px;
@@ -77,11 +77,14 @@ body.waypoint {
 body.waypoint section.hero {
   padding: 50px 0px 100px;
 }
+body.waypoint section.mid {
+  padding: 70px 0px 90px;
+}
 body.waypoint section.main {
   color: #143742;
 }
 body.waypoint section.main h1 {
-  font-size: 3.4em;
+  font-size: 3.1em;
   font-weight: 700;
   margin: 0.6em 0px;
   letter-spacing: -0.02em;
