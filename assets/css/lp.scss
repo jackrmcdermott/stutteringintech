@@ -14,35 +14,39 @@ body.waitlist {
   font-family: $main-font;
   letter-spacing: -0.04em;
 
+  .container {
+    max-width: 1600px;
+  }
+
   header {
     box-shadow: none;
     border-bottom: none;
-    padding: 15px 20px;
-  }
+    padding: 30px 20px;
 
-  a.nav-btn, button.nav-btn {
-    font-size: 0.85em;
-    padding: 10px 20px;
-    font-weight: 500;
-    color: white;
-    background: $red;
-    text-transform: none;
-    
-    &:hover {
-      background-color: lighten($red, 10%);
-      transition: all ease-in .1s;
-      color: white;
+    .container {
+      max-width: 2000px;
     }
   }
 
-  section.main {
-    background: $test-bg-blue;
+  div.nav-btn-container {
+    float: right;
+  }
 
-    .img-fluid.big {
-      max-width: 100%;
-      background-color: lighten($blue, 18%);
-      border-radius: 60px;
-      padding: 32px;
+  a.nav-btn, button.nav-btn {
+    font-size: 0.8em;
+    padding: 10px 20px;
+    color: white;
+    background: $red;
+    text-transform: none;
+    background-color: $red;
+    border: none;
+    font-weight: 600;
+    border-radius: 4em;
+    
+    &:hover {
+      background-color: darken($red, 10%);
+      transition: all ease-in .1s;
+      color: white;
     }
   }
 
@@ -50,35 +54,13 @@ body.waitlist {
     max-height: 40px;
   }
 
-  .container {
-    max-width: 1800px;
-  }
-
-  .cta-section {
-    background-image: none;
-  }
-
   .text {
-    max-width: 540px;
-  }
-
-  h1 {
-    text-align: left;
-    font-size: 3.9em;
-    margin: 30px 0px;
-    font-weight: 700;
-  }
-
-  p {
-    font-size: 1.5em;
-    opacity: 0.9;
-    font-weight: 400;
+    max-width: 800px;
   }
 
 
   footer {
-    padding: 20px 0px 30px;;
-    background: white;
+    padding: 0px 0px 40px;
   }
 
   .credits {
@@ -87,6 +69,26 @@ body.waitlist {
     font-weight: 500;
     opacity: 1;
   }
+
+
+  .mid-content-section {
+    padding: 40px 0px;
+    background: $light-blue;
+
+    .img-fluid {
+      
+    }
+  }
+
+  .cta-section {
+      padding: 70px 0px 10px;
+      text-align: center;
+  
+      .text {
+        margin: 0 auto;
+      }
+
+    }
 
 } // end lp
 
@@ -98,32 +100,15 @@ body.waitlist {
 --------------------------------------------------------------*/
 
 body.waypoint {
+    background: white;
   
-  header {
-   background-color: $waypoint-light-blue;
-  color: $waypoint-black;
-
-    button.nav-btn {
-      background-color: $red;
-      border: none;
-      font-weight: 600;
-      border-radius: 4em;
-      &:hover {
-        background-color: darken($red, 10%);
-      }
-    } //end button
-
+  section.hero {
+    padding: 50px 0px 100px;
   }
 
   section.main {
-    background: $waypoint-light-blue;
     color: $waypoint-black;
 
-    .text {
-      max-width: 720px;
-      padding: 1.2em 0px 0px;
-      //border: 2px solid red;
-    }
 
     h1 {
       font-size: 3.4em;
@@ -136,12 +121,11 @@ body.waypoint {
 
     h2 {
       font-size: 2.3em;
-      font-weight: 300;
+      font-weight: 700;
     }
 
     p {
-      font-size: 1.4em;
-      opacity: 0.9;
+      font-size: 1.3em;
       font-weight: 500;
       color: $waypoint-black;
     }
@@ -153,16 +137,16 @@ body.waypoint {
 
     li {
       position: relative;
-      padding-left: 40px;
-      margin: 1.5em 0px;      
+      padding-left: 50px;
+      margin: 1.8em 0px;      
     }
     li:before {
       content: '';
-      width: 22px;
-      height: 22px;
+      width: 24px;
+      height: 24px;
       position: absolute;
       background-image: url('/assets/img/checkmark.svg');
-      opacity: .5;
+      opacity: .8;
       background-size: cover;
       background-position: center;
       left: 0;
@@ -173,13 +157,13 @@ body.waypoint {
 
     a.cta.lp, button {
       margin: .8em 0 1.6em;
-      font-size: .8em;
-      font-weight: 500;
+      font-size: .75em;
+      font-weight: 600;
       border: none;
       color: white;
       outline: none;
       letter-spacing: 0.001em;
-      padding: 18px 44px;
+      padding: 12px 34px;
       box-shadow: none;
       background-color: $red;
       border-radius: 6em;
@@ -188,17 +172,17 @@ body.waypoint {
       }
     }
 
-    .img-fluid.big {
-      max-width: 100%;
+    .img-fluid {
+      max-width: 85%;
       background-color: transparent;
       border-radius: 0px;
       padding: 0px;
     }
 
+
   } // end section.main
 
   footer {
-      background-color: $waypoint-light-blue;
       color: $waypoint-black;
   }
 
@@ -261,10 +245,6 @@ body.waypoint {
   } // end mobile waypoint
 
 } // end waypoint 
-
-
-
-
 
 
 

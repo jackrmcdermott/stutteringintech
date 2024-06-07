@@ -8,59 +8,44 @@ body.waitlist {
   font-family: "Montserrat", sans-serif;
   letter-spacing: -0.04em;
 }
+body.waitlist .container {
+  max-width: 1600px;
+}
 body.waitlist header {
   box-shadow: none;
   border-bottom: none;
-  padding: 15px 20px;
+  padding: 30px 20px;
+}
+body.waitlist header .container {
+  max-width: 2000px;
+}
+body.waitlist div.nav-btn-container {
+  float: right;
 }
 body.waitlist a.nav-btn, body.waitlist button.nav-btn {
-  font-size: 0.85em;
+  font-size: 0.8em;
   padding: 10px 20px;
-  font-weight: 500;
   color: white;
   background: #FF492C;
   text-transform: none;
+  background-color: #FF492C;
+  border: none;
+  font-weight: 600;
+  border-radius: 4em;
 }
 body.waitlist a.nav-btn:hover, body.waitlist button.nav-btn:hover {
-  background-color: #ff755f;
+  background-color: #f82200;
   transition: all ease-in 0.1s;
   color: white;
-}
-body.waitlist section.main {
-  background: #bdd5ff;
-}
-body.waitlist section.main .img-fluid.big {
-  max-width: 100%;
-  background-color: #7baef5;
-  border-radius: 60px;
-  padding: 32px;
 }
 body.waitlist img.brand {
   max-height: 40px;
 }
-body.waitlist .container {
-  max-width: 1800px;
-}
-body.waitlist .cta-section {
-  background-image: none;
-}
 body.waitlist .text {
-  max-width: 540px;
-}
-body.waitlist h1 {
-  text-align: left;
-  font-size: 3.9em;
-  margin: 30px 0px;
-  font-weight: 700;
-}
-body.waitlist p {
-  font-size: 1.5em;
-  opacity: 0.9;
-  font-weight: 400;
+  max-width: 800px;
 }
 body.waitlist footer {
-  padding: 20px 0px 30px;
-  background: white;
+  padding: 0px 0px 40px;
 }
 body.waitlist .credits {
   font-size: 1.5em;
@@ -68,35 +53,32 @@ body.waitlist .credits {
   font-weight: 500;
   opacity: 1;
 }
+body.waitlist .mid-content-section {
+  padding: 40px 0px;
+  background: #E5F1FF;
+}
+body.waitlist .cta-section {
+  padding: 70px 0px 10px;
+  text-align: center;
+}
+body.waitlist .cta-section .text {
+  margin: 0 auto;
+}
 
 /*--------------------------------------------------------------
 # Waypoint
 --------------------------------------------------------------*/
 body.waypoint {
+  background: white;
   /*--------------------------------------------------------------
   # Waypoint Mobile 
   --------------------------------------------------------------*/
 }
-body.waypoint header {
-  background-color: #EBFAFE;
-  color: #143742;
-}
-body.waypoint header button.nav-btn {
-  background-color: #FF492C;
-  border: none;
-  font-weight: 600;
-  border-radius: 4em;
-}
-body.waypoint header button.nav-btn:hover {
-  background-color: #f82200;
+body.waypoint section.hero {
+  padding: 50px 0px 100px;
 }
 body.waypoint section.main {
-  background: #EBFAFE;
   color: #143742;
-}
-body.waypoint section.main .text {
-  max-width: 720px;
-  padding: 1.2em 0px 0px;
 }
 body.waypoint section.main h1 {
   font-size: 3.4em;
@@ -107,11 +89,10 @@ body.waypoint section.main h1 {
 }
 body.waypoint section.main h2 {
   font-size: 2.3em;
-  font-weight: 300;
+  font-weight: 700;
 }
 body.waypoint section.main p {
-  font-size: 1.4em;
-  opacity: 0.9;
+  font-size: 1.3em;
   font-weight: 500;
   color: #143742;
 }
@@ -122,16 +103,16 @@ body.waypoint section.main ul {
 }
 body.waypoint section.main ul li {
   position: relative;
-  padding-left: 40px;
-  margin: 1.5em 0px;
+  padding-left: 50px;
+  margin: 1.8em 0px;
 }
 body.waypoint section.main ul li:before {
   content: "";
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   position: absolute;
   background-image: url("/assets/img/checkmark.svg");
-  opacity: 0.5;
+  opacity: 0.8;
   background-size: cover;
   background-position: center;
   left: 0;
@@ -140,13 +121,13 @@ body.waypoint section.main ul li:before {
 }
 body.waypoint section.main a.cta.lp, body.waypoint section.main button {
   margin: 0.8em 0 1.6em;
-  font-size: 0.8em;
-  font-weight: 500;
+  font-size: 0.75em;
+  font-weight: 600;
   border: none;
   color: white;
   outline: none;
   letter-spacing: 0.001em;
-  padding: 18px 44px;
+  padding: 12px 34px;
   box-shadow: none;
   background-color: #FF492C;
   border-radius: 6em;
@@ -154,14 +135,13 @@ body.waypoint section.main a.cta.lp, body.waypoint section.main button {
 body.waypoint section.main a.cta.lp:hover, body.waypoint section.main button:hover {
   background-color: #f82200;
 }
-body.waypoint section.main .img-fluid.big {
-  max-width: 100%;
+body.waypoint section.main .img-fluid {
+  max-width: 85%;
   background-color: transparent;
   border-radius: 0px;
   padding: 0px;
 }
 body.waypoint footer {
-  background-color: #EBFAFE;
   color: #143742;
 }
 @media (max-width: 576px) {
@@ -243,18 +223,6 @@ section.main a.cta-link {
 section.main .highlight {
   border-bottom: 4px solid rgba(38, 122, 239, 0.99);
 }
-section.main .img-fluid {
-  margin: 0 auto;
-}
-section.main .img-fluid.big {
-  max-width: 95%;
-}
-section.main .img-fluid.wide {
-  max-width: 85%;
-}
-section.main .img-fluid.tall {
-  max-width: 70%;
-}
 @media (max-width: 576px) {
   section.main {
     height: 100%;
@@ -270,7 +238,6 @@ section.main .img-fluid.tall {
 # Footer Section
 --------------------------------------------------------------*/
 footer {
-  background: #F5F5F7;
   font-weight: 700;
   font-size: 0.6em;
   padding-bottom: 20px;

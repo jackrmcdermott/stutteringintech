@@ -275,6 +275,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/mid.png" : {
+      "ft" : 32768,
+      "iS" : 696697,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/mid.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/people.png" : {
+      "ft" : 32768,
+      "iS" : 1869253,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/people.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/student-scribble.png" : {
       "ft" : 32768,
       "iS" : 367898,

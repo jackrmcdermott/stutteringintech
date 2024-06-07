@@ -4,7 +4,6 @@
 
 
 
-
 /*--------------------------------------------------------------
 # Main Paragraph Sections
 --------------------------------------------------------------*/
@@ -57,21 +56,6 @@ section.main {
 	    border-bottom: 4px solid rgba($blue,.99);
 	}
 
-	.img-fluid {
-		margin: 0 auto;
-		
-		&.big {
-			max-width: 95%;
-		}
-
-		&.wide {
-			max-width: 85%;
-		}
-		&.tall {
-			max-width: 70%;
-		}
-	}
-
 	@media (max-width: $sm-screen) {
 		height: 100%;
 		padding: 20px 0px;
@@ -87,13 +71,11 @@ section.main {
 
 
 
-
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
 
 footer {
-	background: $light-gray;
 	font-weight: 700;
 	font-size: 0.6em;
 	padding-bottom: 20px;
